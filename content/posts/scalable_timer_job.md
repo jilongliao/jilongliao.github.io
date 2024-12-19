@@ -1,5 +1,5 @@
 ---
-date: '2020-01-12T21:43:39-08:00'
+date: '2020-01-12'
 draft: false
 title: 'Scalable Timer Job in Azure WebJob'
 tags: ["azure"]
