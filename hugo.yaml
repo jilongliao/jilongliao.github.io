@@ -1,6 +1,6 @@
 baseURL: https://jilongliao.github.io/
 languageCode: en-us
-title: The jBlog
+title: The little@blog
 theme: ["PaperMod"]
 pagination:
   enabled: true
@@ -8,9 +8,9 @@ pagination:
 
 params:
   env: production
-  title: The jBlog
+  title: The little@blog
   author: Jilong Liao
-  description: The jBlog is a blog built with Hugo and GitHub Pages.
+  description: The little@blog is a blog built with Hugo and GitHub Pages.
   keywords: [Hugo, GitHub, Pages, Blog]
   defaultTheme: auto
 
