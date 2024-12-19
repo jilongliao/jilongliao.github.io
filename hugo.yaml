@@ -2,3 +2,35 @@ baseURL: https://jilongliao.github.io/
 languageCode: en-us
 title: The jBlog
 theme: ["PaperMod"]
+pagination:
+  enabled: true
+  paginate: 5
+
+params:
+  env: production
+  title: The jBlog
+  author: Jilong Liao
+  description: The jBlog is a blog built with Hugo and GitHub Pages.
+  keywords: [Hugo, GitHub, Pages, Blog]
+  defaultTheme: auto
+
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: false
+  showWordCount: true
+  showRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  showTocInSidebar: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "This is Jilong. I write engineering stuff here."
