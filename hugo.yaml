@@ -33,4 +33,12 @@ params:
 
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "This is Jilong. I write engineering stuff here."
+    Content: "This is Jilong, a software engineer. I write down my learning notes."
+
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/jilongliao
+    - name: linkedin
+      url: https://www.linkedin.com/in/jilong-liao-2b25a330/
+    - name: googlescholar
+      url: https://scholar.google.com/citations?user=OrW2SEgAAAAJ&hl=en
