@@ -10,8 +10,6 @@ Over the holiday I spent some time to make some progress of moving one of my mac
 
 So I decided to give Spark a try since I do not have to move data around once I put the data into Azure Blob Storage.
 
-<!-- more -->
-
 Setting up a local Spark environment might take you an hour by following some good articles such as [this one][1], so I will skip from this one.
 
 I spent about a week to re-write all the transformation function in Spark using PySpark. The purpose of the library is to use a common JSON based configuration interface to trigger the same data transformation in cloud and on edge devices. Most of the transformations are simply numerical ones and are very easy to implement. The performance is very good comparing to the single machine solution.

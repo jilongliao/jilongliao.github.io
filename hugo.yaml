@@ -42,3 +42,8 @@ params:
       url: https://www.linkedin.com/in/jilong-liao-2b25a330/
     - name: googlescholar
       url: https://scholar.google.com/citations?user=OrW2SEgAAAAJ&hl=en
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

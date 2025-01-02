@@ -5,3 +5,7 @@
 .post-content {
 	font-size: 16px;
 }
+
+.first-entry {
+	min-height: 120px;
+}
