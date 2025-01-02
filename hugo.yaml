@@ -47,3 +47,5 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+copyright: © 2014-2025 Little AI LLC. All rights reserved.
