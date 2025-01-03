@@ -49,3 +49,7 @@ markup:
       unsafe: true
 
 copyright: © 2014-2025 Little AI LLC. All rights reserved.
+
+services:
+  googleAnalytics:
+    id: G-33ZGZBE6W8
