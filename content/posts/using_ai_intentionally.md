@@ -1,7 +1,7 @@
 ---
 date: '2025-01-10'
 draft: false
-title: 'Inentionally using AI for a month'
+title: 'Intentionally using AI for a month'
 tags: ["ai"]
 toc: true
 ---
