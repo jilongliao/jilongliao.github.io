@@ -56,7 +56,7 @@ It only took a few weeks from training on a 8x A100 GPU node to multi-node distr
 
 Lastly, once a model is trained, we often optimize and compile the models in TensorRT to leverage the further inference acceleration from NVIDIA. We use Ansible to manage those dev machines that match our production devices, and developers often need to SSH into those machines and treate it like a dev VM. Skypilot actually abstracts away the complexity of managing those dev machines for model optimization and makes it like to just submit a job.
 
-## Challenges we faced
+## Lessons learned from operations
 
 No system is perfect in operations. We do see operational issues but Skypilot is ahead of us to identify the right solutions. I found some of those issues might be interests to you:
 
@@ -80,3 +80,6 @@ Augmodo’s Skypilot is deployed in GKE and 8x A100 GPU nodes are hard to secure
 
 Recently, we expanded to multi-cloud to find better GPU deals. We chose OCI. One issue we found in the Kubernetes setup is that Skypilot API uses the GKE labels to identify GPU nodes while OCI has a different label for those nodes. This fails the pod scheduler. A simple solution here is to apply the GKE label (cloud.google.com/gke-accelerator: nvidia-tesla-a100) to the OCI nodes so that the A100 GPU nodes can be discovered.
 
+## Conclusion
+
+SkyPilot has become a cornerstone of our machine learning infrastructure at Augmodo. The platform's rapid development and feature updates have consistently addressed our scaling needs. By leveraging SkyPilot, we've achieved a more resilient and cost-effective GPU orchestration layer that allows our modeling team to focus on building the next generation of spatial AI rather than managing infrastructure.
